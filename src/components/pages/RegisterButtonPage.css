@@ -1,15 +1,7 @@
 /* src/components/pages/RegisterButtonPage.css */
 
-.register-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    text-align: center;
-  }
   
-  .card {
+  .card-aux {
     display: flex;
     flex-direction: column;
     justify-content: center;

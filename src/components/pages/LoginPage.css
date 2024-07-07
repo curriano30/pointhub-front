@@ -1,16 +1,13 @@
 /* src/components/pages/LoginPage.css */
 
-body {
-    background-image: url('../../assets/images/pattern-background.png'); /* Ruta a tu imagen de patrones hexagonales */
-    background-repeat: repeat; /* Repite la imagen de fondo para abarcar todo el contenedor */
-    background-color: #f8f9fa; /* Asegura un color de fondo si la imagen no se carga */
-    margin: 0;
-    padding: 0;
-  }
+    body {
+        background-image: url('../../assets/images/pattern-background.png'); /* Ruta a tu imagen de patrones hexagonales */
+        background-repeat: repeat; /* Repite la imagen de fondo para abarcar todo el contenedor */
+        background-color: #f8f9fa; /* Asegura un color de fondo si la imagen no se carga */
+        margin: 0;
+        padding: 0;
+    }
 
-.login-container {
-    margin-top: 50px;
-  }
   
   .card {
     border-radius: 15px;
@@ -19,6 +16,8 @@ body {
     border-width: 1px; /* Reduce el tamaño del borde */
     border-color: rgba(0, 0, 0, 0.1);
     max-width: 400px; /* Establece un ancho máximo para la tarjeta */
+    background-color: rgb(255, 255, 255, 0.15); /* Fondo gris oscuro y más opaco */
+
   }
 
   .icon-container {
