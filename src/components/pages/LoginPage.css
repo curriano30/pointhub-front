@@ -1,0 +1,98 @@
+/* src/components/pages/LoginPage.css */
+
+body {
+    background-image: url('../../assets/images/pattern-background.png'); /* Ruta a tu imagen de patrones hexagonales */
+    background-repeat: repeat; /* Repite la imagen de fondo para abarcar todo el contenedor */
+    background-color: #f8f9fa; /* Asegura un color de fondo si la imagen no se carga */
+    margin: 0;
+    padding: 0;
+  }
+
+.login-container {
+    margin-top: 50px;
+  }
+  
+  .card {
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.17);
+    border-width: 1px; /* Reduce el tamaño del borde */
+    border-color: rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Establece un ancho máximo para la tarjeta */
+  }
+
+  .icon-container {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgb(227, 227, 227); /* Fondo gris oscuro y más opaco */
+    border-radius: 50%;
+    width: 70px; /* Aumenta el tamaño del contenedor */
+    height: 70px; /* Aumenta el tamaño del contenedor */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .icon-person {
+    font-size: 35px; /* Aumenta el tamaño del ícono */
+    color: white; /* Ícono blanco */
+  }
+  
+  .card-title {
+    font-size: 24px;
+    font-weight: 300; /* Más delgado que bold */
+    color: #777; /* Color gris */
+    margin-top: 20px; /* Aumenta la separación encima del título */
+  }
+  
+  .form-group {
+    margin-bottom: 1.3rem;
+    position: relative;
+  }
+  
+  .input-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: #999;
+  }
+  
+  .form-control {
+    padding-left: 40px;
+    font-size: 12px;
+    background-color: rgb(227, 227, 227); /* Fondo gris oscuro y más opaco */
+
+  }
+  
+  .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-dark {
+    background-color: #e9af11;
+    border-color: #e9af11;
+    color: #fff;
+  }
+  
+  .btn-dark:hover {
+    background-color: #ffd413;
+    border-color: #ffd413
+  }
+  
+  .forgot-password {
+    color: rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover {
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .btn {
+    padding: 10px 20px;
+  }
+  
