@@ -4,11 +4,13 @@ import { AuthContext } from '../../context/AuthContext';
 import './LoginPage.css'; // Importa tus estilos personalizados
 import { FaUser, FaLock } from 'react-icons/fa';
 import { MdPerson } from 'react-icons/md'; // Importa un ícono de usuario
+import { useNavigate } from 'react-router-dom';
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const { login } = useContext(AuthContext);
+  const navigate = useNavigate();
 
   const handleLogin = async (e) => {
     e.preventDefault();
@@ -18,7 +20,7 @@ const LoginPage = () => {
   return (
     <div className="login-container container mt-5">
       <div className="row justify-content-center">
-        <div className="col-md-4">
+      <div className="col-md-4 d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="icon-container">
               <MdPerson className="icon-person" />
@@ -54,7 +56,7 @@ const LoginPage = () => {
                   <button type="submit" className="btn btn-dark rounded-pill">Iniciar sesión</button>
                 </div>
                 <div className="text-center mt-3">
-                  <a href="/forgot-password" className="forgot-password">Forgot your password?</a>
+                  <a href="/forgot-password" className="forgot-password">¿Has olvidado tu contraseña?</a>
                 </div>
               </form>
             </div>
@@ -63,7 +65,7 @@ const LoginPage = () => {
       </div>
       <div className="row justify-content-center mt-4">
         <div className="col-md-6 text-center">
-          <button className="btn btn-dark rounded-pill create-account-btn" onClick={() => window.location.href='/register-company'}>
+          <button className="btn btn-dark rounded-pill create-account-btn" onClick={() => navigate('/register-company')}>
             Crear cuenta
           </button>
         </div>
