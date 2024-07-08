@@ -1,0 +1,87 @@
+/* src/styles/PricingCard.css */
+.pricing-card {
+    position: relative;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.17);
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    max-width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  .pricing-card:hover {
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+  }
+  
+  .pricing-card-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+  }
+  
+  .pricing-card-subtitle {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-card-price {
+    font-size: 32px;
+    font-weight: 700;
+    color: #e9af11; /* Amarillo oscuro */
+    margin: 20px 0;
+  }
+  
+  .pricing-card-button {
+    background-color: #ffd413; /* Naranja amarillento */
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pricing-card-button:hover {
+    background-color: #ffaf00; /* Amarillo anaranjado */
+  }
+  
+  .pricing-card-features {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .pricing-card-feature {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .pricing-card-feature i {
+    margin-right: 10px;
+  }
+  
+  /* Estilos específicos para la tarjeta Profesional */
+  .pricing-card.professional {
+    border: 2px solid #ffd413;
+  }
+  
+  /* Iconos de características */
+  .feature-icon {
+    color: gray;
+  }
+  
+  .feature-icon.available {
+    color: #e9af11; /* Amarillo oscuro */
+  }
+  
+  .feature-icon.selected {
+    color: #ffaf00; /* Amarillo anaranjado */
+  }
+  

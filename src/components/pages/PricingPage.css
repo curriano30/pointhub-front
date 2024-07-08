@@ -1,0 +1,10 @@
+/* src/styles/PricingPage.css */
+.pricing-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0;
+  }
+  

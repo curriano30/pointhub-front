@@ -20,10 +20,18 @@ body, html {
     justify-content: center;
     align-items: center;
     background-color: transparent; /* Fondo transparente para ver el degradado */
+    z-index: 1; /* Asegúrate de que el header tenga un índice de apilamiento menor */
   }
+
+  .main-content {
+    position: relative;
+    top: -30px; /* Ajusta este valor para que el main-content se superponga al header */
+    z-index: 2; /* Asegúrate de que el main-content tenga un índice de apilamiento mayor */
+}
+
   
   .header-logo {
-    height: 150px; /* Ajusta el tamaño según sea necesario */
+    height: 200px; /* Ajusta el tamaño según sea necesario */
   }
   
   .main-content {
