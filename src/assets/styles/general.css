@@ -1,0 +1,50 @@
+body {
+    background-image: url('../images/pattern-background.png'); /* Ruta a tu imagen de patrones hexagonales */
+    background-repeat: repeat; /* Repite la imagen de fondo para abarcar todo el contenedor */
+    background-color: #f8f9fa; /* Asegura un color de fondo si la imagen no se carga */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+    margin: 0;
+  }
+
+.btn-dark {
+    background-color: #e9af11;
+    border-color: #e9af11;
+    color: #fff;
+  }
+
+
+.btn-dark:hover {
+    background-color: #ffd413;
+    border-color: #ffd413
+}
+
+    
+.btn {
+    padding: 10px 20px;
+}
+
+/* Form Check Styles */
+.form-check-label {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .form-check-input {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(233, 175, 17, 0.8); /* Borde naranjita amarillento más ancho */
+    background-color: rgba(255, 255, 255, 1); /* Fondo blanco */
+  }
+  
+  .form-check-input:checked {
+    background-color: rgba(233, 175, 17, 0.8); /* Color de fondo cuando está seleccionado */
+    border-color: rgba(233, 175, 17, 0.8); /* Mismo color de borde cuando está seleccionado */
+  }

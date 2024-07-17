@@ -1,9 +1,6 @@
 /* src/components/layout/HeaderLayout.css */
 
-body, html {
-    height: 100%;
-    margin: 0;
-  }
+
   
   .layout {
     display: flex;
@@ -25,11 +22,9 @@ body, html {
 
   .main-content {
     position: relative;
-    top: -30px; /* Ajusta este valor para que el main-content se superponga al header */
     z-index: 2; /* Asegúrate de que el main-content tenga un índice de apilamiento mayor */
-}
+  }
 
-  
   .header-logo {
     height: 200px; /* Ajusta el tamaño según sea necesario */
   }

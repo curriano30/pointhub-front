@@ -38,7 +38,7 @@
   }
   
   .pricing-card-button {
-    background-color: #ffd413; /* Naranja amarillento */
+    background-color: #ffaf00; /* Naranja amarillento */
     border: none;
     border-radius: 25px;
     color: #fff;
@@ -48,7 +48,7 @@
   }
   
   .pricing-card-button:hover {
-    background-color: #ffaf00; /* Amarillo anaranjado */
+    background-color: #ffd413; /* Amarillo anaranjado */
   }
   
   .pricing-card-features {
